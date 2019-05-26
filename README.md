@@ -8,7 +8,8 @@ Assumes proper Python workspace
 
 2. Open Postman (or similar) to **_http://localhost:5000 [endpoint]_**
 
-| Endpoint     | Description          |
-| ------------ | -------------------- |
-| GET `/test`  | Returns current time |
-| GET `/todos` | Return todos         |
+| Endpoint            | Description          |
+| ------------------- | -------------------- |
+| GET `/test`         | Returns current time |
+| GET `/todos`        | Returns todos        |
+| GET `/todo?id=<id>` | Returns a todo by ID |
