@@ -44,7 +44,6 @@ def updateTodo():
             todos[id - 1] = todo
             return json_response(todo=todo)
 
-    
 # Deletes a todo
 @app.route("/todos", methods=["DELETE"])
 def deleteTodo():
